@@ -22,6 +22,8 @@ public class Main {
     }
 
     private static void imprimir_emp(Empleado empleado1) {
+        System.out.println("Datos del empleado.");
+        
         System.out.println("DNI: "+empleado1.getDni());
         System.out.println("Nombre: "+empleado1.getNombre());
         System.out.println("Cargo: "+empleado1.getCargo());
